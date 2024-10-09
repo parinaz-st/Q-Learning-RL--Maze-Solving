@@ -6,22 +6,39 @@ The agent learns to navigate through the maze and find the optimal path by maxim
 
 __Features__
 
-Q-Learning Algorithm: Implements Q-Learning to train an agent in solving maze-based problems.
+* Q-Learning Algorithm: Implements Q-Learning to train an agent in solving maze-based problems.
 
-Maze Simulation: Visual representation of the maze with real-time updates of the agent’s movements.
+* Maze Simulation: Visual representation of the maze with real-time updates of the agent’s movements.
 
-Customizable Parameters: Adjustable learning rate, discount factor, and exploration rate to experiment with different configurations.
+* Customizable Parameters: Adjustable learning rate, discount factor, and exploration rate to experiment with different configurations.
+
+__Functional Features:__
+
+* Ability to create a maze of arbitrary dimensions.
+* Ability to set the starting point, goal, and obstacles.
+* Ability to save the maze and reload it for execution.
+* Calculation of Q’ values.
+* Random movement of the agent to adjacent cells, provided they are not obstacles.
+* 
+__Additional Functional Features:__
+
+* Ability to execute steps one by one or run the entire episode.
+* Ability to run multiple consecutive episodes.
+* Limiting the number of moves the agent can make in each episode to prevent prolonged execution time.
+
+__Limitations and Dependencies:__
+
+* The agent does not directly know its location and can only see its neighboring cells.
+* The agent does not know if it has previously taken a path that led to a dead end and may traverse that path multiple times back and forth. Therefore, the time to reach the goal may be extended.
+* In a large state space, the graphical capabilities of the program may slow down its execution.
+
 
 __Technologies Used__
 
-C# for implementing the Q-Learning algorithm.
+* C# for implementing the Q-Learning algorithm.
 
-Windows Forms for the graphical user interface and maze visualization.
+* Windows Forms for the graphical user interface and maze visualization.
 
-__Technologies Used__
-
-C# for implementing the Q-Learning algorithm.
-Windows Forms for the graphical user interface and maze visualization.
 
 **Setup**
 
@@ -56,4 +73,6 @@ Windows Forms for the graphical user interface and maze visualization.
 
   4.7- Change the parameters and run!
   ![image](https://github.com/user-attachments/assets/a89b06b1-a175-48b8-8650-55a9a84db06f)
+
+
 
