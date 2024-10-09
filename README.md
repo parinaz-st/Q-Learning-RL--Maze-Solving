@@ -35,15 +35,25 @@ Windows Forms for the graphical user interface and maze visualization.
 
 4- Modify the Q-Learning parameters in the code to suit your experiments.
 
-  4.1 -choose Create and Save Maze 
+  4.1- choose Create and Save Maze 
 
 ![image](https://github.com/user-attachments/assets/fc8ecb11-b4ec-4a46-a051-f8b2ca5d6a18)
 
-  4.2 - Create a new Maze - determine the number of rows and columns
+  4.2- Create a new Maze - determine the number of rows and columns
 
   ![image](https://github.com/user-attachments/assets/871e96c9-8205-41be-8340-8de6e407a765)
 
   4.3 Determine the initial location, goal location and obstacles (if any)
   ![image](https://github.com/user-attachments/assets/cb68f944-aea0-4d9b-bbcb-a1b5a8b22061)
 
-  
+  4.4- Save Maze and Exit
+  4.5- Choose Load and Solve Maze
+
+  ![image](https://github.com/user-attachments/assets/aee5af7c-b6c4-402b-bd2f-e9f216fbdd6b)
+
+  4.6- Load the maze you just saved in the previous step
+  ![image](https://github.com/user-attachments/assets/c30392b4-0d6d-43ec-806b-c1a34b28244f)
+
+  4.7- Change the parameters and run!
+  ![image](https://github.com/user-attachments/assets/a89b06b1-a175-48b8-8650-55a9a84db06f)
+
