@@ -31,4 +31,10 @@ Windows Forms for the graphical user interface and maze visualization.
 
 2- Open the project in Visual Studio.
 
-3- Build the solution and run the project. Modify the Q-Learning parameters in the code to suit your experiments.
+3- Build the solution and run the project.]
+
+4- Modify the Q-Learning parameters in the code to suit your experiments.
+
+  4.1-choose Create and Save Maze 
+
+![image](https://github.com/user-attachments/assets/fc8ecb11-b4ec-4a46-a051-f8b2ca5d6a18)
